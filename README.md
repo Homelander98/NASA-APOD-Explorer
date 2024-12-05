@@ -12,7 +12,6 @@ AstroViewer is a responsive web application that fetches the **Astronomy Picture
 
 ## Screenshots
 
-![Screenshot of AstroViewer](https://via.placeholder.com/800x400)  
 *Screenshot showcasing the app in action.*
 
 ## Installation
