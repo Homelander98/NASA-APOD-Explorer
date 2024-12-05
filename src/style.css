@@ -1,0 +1,106 @@
+/* Global styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: #1c1c1c; /* Dark background */
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background: #121212;
+  color: #fff;
+}
+
+/* Light mode styles */
+.light-mode {
+  background: #f1f1f1;
+  color: #333;
+}
+
+/* Navbar styles */
+.navbar {
+  padding: 1rem;
+  background: #1c1c1c;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+/* Content styles */
+.content {
+  padding: 2rem;
+  text-align: center;
+}
+
+/* Search bar styles */
+.search-bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+
+.date-input {
+  padding: 0.5rem;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+  margin-right: 1rem;
+  width: 200px;
+}
+
+.search-button {
+  padding: 0.5rem 1rem;
+  background: #00d4ff;
+  border: none;
+  color: #1e1e2f;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+/* Error message styling */
+.error-message {
+  color: red;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+}
+
+/* Card styles for the APOD image */
+.image-card {
+  background: #333;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.image-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.image-card h2 {
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.image-card p {
+  font-size: 1.1rem;
+  margin-top: 0.5rem;
+}
+
+/* Fluid layout */
+@media (max-width: 768px) {
+  .search-bar {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .date-input {
+    margin-bottom: 1rem;
+  }
+}
